@@ -17,46 +17,48 @@ export const Home = () => {
         Parroquias: Amil, Cosoirado, Gargantáns, Laje, Lamas, Moraña, Rebón,
         Santa Justa de Moraña e Sayáns.
       </p>
-      <div className="d-flex justify-content-center mb-2">
-        <div className="card card_home m-2 p-2">
-          <img
-            className="card-img-top"
-            src="https://morania.gal/index_archivos/image002.jpg"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              Coñece a Xesús Ferro Ruibal, Intelectual, nado en Rebón. A persoa
-              máis notable da contorna segundo:{" "}
-              <Link to="\tjukanovt.github.io/notable-people">
-                https://tjukanovt.github.io/notable-people
-              </Link>
-            </p>
+      <div className="container">
+        <div className="row d-flex justify-content-center">
+          <div className="card card_home col-12 col-lg-4 m-2 p-2">
+            <img
+              className="card-img-top"
+              src="https://morania.gal/index_archivos/image002.jpg"
+              alt="Card image cap"
+            />
+            <div className="card-body">
+              <p className="card-text">
+                Coñece a Xesús Ferro Ruibal, Intelectual, nado en Rebón. A
+                persoa máis notable da contorna segundo:{" "}
+                <Link to="\tjukanovt.github.io/notable-people">
+                  https://tjukanovt.github.io/notable-people
+                </Link>
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="card card_home m-2 p-2">
-          <img
-            className="card-img-top"
-            src="https://morania.gal/index_archivos/image004.jpg"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              Informe rapa 2022. Cabaña cabalar de Moraña
-            </p>
+          <div className="card card_home col-12 col-lg-4 m-2 p-2">
+            <img
+              className="card-img-top"
+              src="https://morania.gal/index_archivos/image004.jpg"
+              alt="Card image cap"
+            />
+            <div className="card-body">
+              <p className="card-text">
+                Informe rapa 2022. Cabaña cabalar de Moraña
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="card card_home m-2 p-2">
-          <img
-            className="card-img-top"
-            src="https://morania.gal/index_archivos/image006.jpg"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              Inicio curso escolar 2022-23<br></br>
-              Calendario curso <br></br>Datos inicio
-            </p>
+          <div className="card card_home col-12 col-lg-4 m-2 p-2">
+            <img
+              className="card-img-top"
+              src="https://morania.gal/index_archivos/image006.jpg"
+              alt="Card image cap"
+            />
+            <div className="card-body">
+              <p className="card-text">
+                Inicio curso escolar 2022-23<br></br>
+                Calendario curso <br></br>Datos inicio
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -64,18 +66,17 @@ export const Home = () => {
         <div
           id="carouselExampleIndicators"
           className="carousel slide w-50"
-          data-ride="carousel"
+          data-bs-ride="carousel"
         >
           <ol className="carousel-indicators">
             <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
               className="active"
             ></li>
             <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="1"
-              className="active"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
             ></li>
           </ol>
           <div className="carousel-inner">
@@ -98,7 +99,7 @@ export const Home = () => {
             className="carousel-control-prev"
             href="#carouselExampleIndicators"
             role="button"
-            data-slide="prev"
+            data-bs-slide="prev"
           >
             <span
               className="carousel-control-prev-icon"
@@ -110,7 +111,7 @@ export const Home = () => {
             className="carousel-control-next"
             href="#carouselExampleIndicators"
             role="button"
-            data-slide="next"
+            data-bs-slide="next"
           >
             <span
               className="carousel-control-next-icon"
