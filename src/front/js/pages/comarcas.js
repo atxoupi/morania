@@ -8,37 +8,46 @@ export const Comarcas = () => {
       <div className="row justify-content-center w-100">
         <div className="card card_home m-2 col col-lg-4">
           <img
-            className="card-img-top"
+            className="card-img-top mt-2"
             src="https://morania.gal/index_archivos/image014.jpg"
             alt="Card image cap"
           />
           <div className="card-body">
-            <p className="card-text">
-              <h1>Caldas</h1>
+            <p className="card-text m-1">
+              <h3>Caldas</h3>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
             </p>
           </div>
         </div>
         <div className="card card_home m-2 col col-lg-4">
           <img
-            className="card-img-top"
+            className="card-img-top mt-2"
             src="https://morania.gal/index_archivos/image014.jpg"
             alt="Card image cap"
           />
           <div className="card-body">
             <p className="card-text">
-              <h1>Valga</h1>
+              <h3>Valga</h3>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
             </p>
           </div>
         </div>
         <div className="card card_home m-2 col col-lg-4">
           <img
-            className="card-img-top"
+            className="card-img-top mt-2"
             src="https://morania.gal/index_archivos/image014.jpg"
             alt="Card image cap"
           />
           <div className="card-body">
             <p className="card-text">
-              <h1>Portas</h1>
+              <h3>Portas</h3>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
             </p>
           </div>
         </div>
@@ -46,37 +55,46 @@ export const Comarcas = () => {
       <div className="row justify-content-center w-100">
         <div className="card card_home m-2 col col-lg-4">
           <img
-            className="card-img-top"
+            className="card-img-top mt-2"
             src="https://morania.gal/index_archivos/image014.jpg"
             alt="Card image cap"
           />
           <div className="card-body">
             <p className="card-text">
-              <h1>Catoira</h1>
+              <h3>Catoira</h3>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
             </p>
           </div>
         </div>
         <div className="card card_home m-2 col-xl-4">
           <img
-            className="card-img-top"
+            className="card-img-top mt-2"
             src="https://morania.gal/index_archivos/image014.jpg"
             alt="Card image cap"
           />
           <div className="card-body">
             <p className="card-text">
-              <h1>Cuntis</h1>
+              <h3>Cuntis</h3>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
             </p>
           </div>
         </div>
         <div className="card card_home m-2 col-xl-4">
           <img
-            className="card-img-top"
+            className="card-img-top mt-2"
             src="https://morania.gal/index_archivos/image014.jpg"
             alt="Card image cap"
           />
           <div className="card-body">
             <p className="card-text">
-              <h1>Pontecesures</h1>
+              <h3>Pontecesures</h3>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
             </p>
           </div>
         </div>

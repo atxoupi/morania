@@ -5,8 +5,10 @@ export const Navbar = () => {
   return (
     <>
       <div className="navbar_titulo text-center m-2">
-        <h1>AMOR A MORAÑA</h1>
-        <h3>Revista dos amigos e amigas da terra</h3>
+        <h1>
+          <b>AMOR A MORAÑA</b>
+        </h1>
+        <h5>Revista dos amigos e amigas da terra</h5>
       </div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light m-2">
         <div className="">
@@ -53,9 +55,9 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link to="/musica" className="nav-link">
                 Música
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
@@ -73,9 +75,9 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link to="/quiz" className="nav-link">
                 Quiz
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

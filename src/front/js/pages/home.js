@@ -18,7 +18,7 @@ export const Home = () => {
         Santa Justa de Moraña e Sayáns.
       </p>
       <div className="d-flex justify-content-center mb-2">
-        <div className="card card_home m-2">
+        <div className="card card_home m-2 p-2">
           <img
             className="card-img-top"
             src="https://morania.gal/index_archivos/image002.jpg"
@@ -34,7 +34,7 @@ export const Home = () => {
             </p>
           </div>
         </div>
-        <div className="card card_home m-2">
+        <div className="card card_home m-2 p-2">
           <img
             className="card-img-top"
             src="https://morania.gal/index_archivos/image004.jpg"
@@ -46,7 +46,7 @@ export const Home = () => {
             </p>
           </div>
         </div>
-        <div className="card card_home m-2">
+        <div className="card card_home m-2 p-2">
           <img
             className="card-img-top"
             src="https://morania.gal/index_archivos/image006.jpg"

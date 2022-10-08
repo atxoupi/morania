@@ -1,8 +1,3 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
-@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto:wght@300&display=swap");
-
-body {
-    font-family: "Roboto", "sans-serif";
-}
